@@ -19,7 +19,7 @@ services:
         environment:
             - POSTGRES_USER=irKoon
             - POSTGRES_PASSWORD=123456789
-            - POSTGRES_DB=123456789
+            - POSTGRES_DB=note
         ports:
             - '9004:5432'
 
